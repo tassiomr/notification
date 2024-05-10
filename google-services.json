@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "712801889804",
+    "project_id": "rodobens-qa",
+    "storage_bucket": "rodobens-qa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:712801889804:android:c3df9c3619feab8aae8829",
+        "android_client_info": {
+          "package_name": "com.anyone.tassio.notification"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzko56pjlHZ3O_FFW4s0dW7yyt4BsaGzU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

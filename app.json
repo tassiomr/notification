@@ -11,10 +11,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "ios": {
-      "supportsTablet": true
-    },
     "android": {
+      "googleServicesFile": "./google-services.json",
+      "package": "com.anyone.tassio.notification",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -22,6 +21,15 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "cdcee47e-72b9-405d-9ab1-2e842cef48e4"
+      }
+    },
+    "owner": "tassio_rocha",
+    "ios": {
+      "bundleIdentifier": "com.anyone.tassio.notification"
     }
   }
 }
