@@ -11,6 +11,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "scheme": "notification",
     "android": {
       "googleServicesFile": "./google-services.json",
       "package": "com.anyone.tassio.notification",
@@ -30,6 +31,9 @@
     "owner": "tassio_rocha",
     "ios": {
       "bundleIdentifier": "com.anyone.tassio.notification"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
