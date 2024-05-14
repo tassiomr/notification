@@ -7,7 +7,7 @@ export default function Home() {
 
   return <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
     <TouchableOpacity
-      onPress={() => router.push('/user')}
+      onPress={() => router.push('home/user')}
       style={{
         borderRadius: 20,
         width: 100,

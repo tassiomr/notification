@@ -3,7 +3,7 @@ import { Text } from 'react-native';
 import { useSession } from '../../context/SessionContext';
 
 
-export default function AppLayout() {
+export default function Layout() {
   const { session, isLoading } = useSession();
 
   // You can keep the splash screen open, or render a loading screen like we do here.
@@ -21,8 +21,6 @@ export default function AppLayout() {
 
   // This layout can be deferred because it's not the root layout.
   return (
-    <Stack screenOptions={{ headerShown: false }}>
-      <Stack.Screen name='(tabs)' />
-    </Stack>
+    <Stack screenOptions={{ headerShown: false }} />
   )
 }

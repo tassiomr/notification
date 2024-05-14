@@ -33,6 +33,16 @@
       "bundleIdentifier": "com.anyone.tassio.notification"
     },
     "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "extraMavenRepos": [
+              "../../node_modules/@notifee/react-native/android/libs"
+            ]
+          }
+        }
+      ],
       "expo-router",
       "expo-secure-store"
     ]
